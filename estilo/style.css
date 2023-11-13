@@ -4,18 +4,31 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-}
-body{
-    background-color: rgb(39, 41, 42);
+    max-width: 900px;
+    margin: auto;
 }
 
-#title , .post-title , .subtitle , p{
+body{
+    background-color: rgb(39, 41, 42);
+    font-family: Verdana;
+}
+
+.photo{
+    border-radius: 50%;
+    border: 1px solid rgb(238, 233, 241);
+}
+
+#title , .post-title , .subtitle {
     color: rgb(238, 233, 241);
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .post-title{
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .post {
@@ -23,5 +36,15 @@ body{
 }
 
 .post img{
+    width: 100%;
     border: 3px solid black;
+    border-radius: 10px
+}
+
+.post-image {
+    margin-bottom: 10px;
+}
+
+.links{
+    padding: 10px;
 }
